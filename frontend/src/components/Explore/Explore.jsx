@@ -12,14 +12,14 @@ const Explore = () => {
 
   const places = {
     India: [
-      { name: 'Taj Mahal, Agra', image: exploreImg01, description: 'Symbol of love and a UNESCO World Heritage Site.' },
-      { name: 'Jaipur, Rajasthan', image: exploreImg02, description: 'The Pink City known for its historic forts and palaces.' },
-      { name: 'Kerala Backwaters', image: exploreImg03, description: 'A serene network of lakes, rivers, and canals.' }
+      { name: 'Goa', image: exploreImg01, description: 'Where sun-kissed beaches, vibrant nightlife, and Portuguese charm await your soul.' },
+      { name: 'Ooty', image: exploreImg02, description: 'The Queen of Hill Stations – a serene escape into rolling tea gardens and misty hills.' },
+      { name: 'Kashmir', image: exploreImg03, description: 'Heaven on Earth – where snow-capped peaks and breathtaking valleys tell stories of peace and beauty.' }
     ],
     International: [
-      { name: 'Eiffel Tower, Paris', image: exploreImg04, description: 'Iconic symbol of France and a romantic destination.' },
-      { name: 'Great Wall of China', image: exploreImg05, description: 'A monumental structure and wonder of the world.' },
-      { name: 'Sydney Opera House, Australia', image: exploreImg06, description: 'An architectural marvel and cultural hub.' }
+      { name: 'Srilanka', image: exploreImg04, description: 'An island of timeless wonders – golden beaches, ancient ruins, and lush greenery all in one journey.' },
+      { name: 'Thailand', image: exploreImg05, description: 'The Land of Smiles – a vibrant blend of tropical beaches, rich culture, and exotic flavors.' },
+      { name: 'Dubai', image: exploreImg06, description: 'A futuristic oasis – where luxury meets tradition in the heart of the desert skyline.' }
     ]
   };
 

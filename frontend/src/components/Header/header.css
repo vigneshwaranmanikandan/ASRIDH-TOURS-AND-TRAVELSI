@@ -44,16 +44,19 @@
 }
 
 .sticky__header {
-   width      : 100%;
-   height     : 80px;
+   width: 100%;
+   height: 80px;
    line-height: 80px;
-   background : #fff;
-   position   : sticky;
-   top        : 0;
-   left       : 0;
-   box-shadow : 3px 3px 8px -3px #ddd;
-   z-index    : 999;
+   background: #fff;
+   position: sticky;
+   top: 0;
+   left: 0;
+   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); /* smooth soft shadow */
+   z-index: 999;
+   transition: all 0.3s ease; /* smooth transition */
+   backdrop-filter: blur(6px); /* subtle blur effect */
 }
+
 
 /* =============== RESPONSIVE ================ */
 @media only screen and (max-width:992px) {
